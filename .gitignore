@@ -23,3 +23,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Firebase ###
+/src/main/resources/firebase-credentials.json

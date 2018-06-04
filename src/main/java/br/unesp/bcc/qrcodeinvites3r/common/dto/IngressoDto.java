@@ -1,11 +1,16 @@
 package br.unesp.bcc.qrcodeinvites3r.common.dto;
 
-import lombok.Value;
+import lombok.*;
 
 /**
  * Data Transfer Object utilizado para ingressos.
  */
-@Value
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
 public class IngressoDto {
 
     private String id;

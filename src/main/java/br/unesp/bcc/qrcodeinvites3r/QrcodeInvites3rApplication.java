@@ -9,4 +9,5 @@ public class QrcodeInvites3rApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(QrcodeInvites3rApplication.class, args);
 	}
+
 }
